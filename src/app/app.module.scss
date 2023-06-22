@@ -35,20 +35,21 @@
     border-radius: 0.4rem;
     margin-top: 1.6rem;
   }
-  .tweet-quote{
-    background: url('./../assets/icons8-twitter.svg');
-    background-color: #fff;
+  .tweet-quote {
+    background: url('./../assets/twitter-white.svg');
     background-size: cover;
     height: 1.6rem;
     width: 1.6rem;
     background-position: center;
     background-repeat: no-repeat;
     display: inline-block;
+    line-height: 0;
+    font-size: 0;
+    color: transparent;
   }
-  .btns{
+  .btns {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
   }
 }

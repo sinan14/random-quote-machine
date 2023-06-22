@@ -1,11 +1,11 @@
 {
   "name": "random-quote-machine",
-  "homepage": "http://sinan14.github.io/random-quote-machine",
+  "homepage": "http://sinan14.github.io/random-quote-machine/",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist/random-quote-machine",
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test"

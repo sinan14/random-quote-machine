@@ -64,6 +64,7 @@ export function App() {
                 `${quote} ${author}`
               )}"`}
               id="tweet-quote"
+              aria-label="twitter share icon"
             ></a>
           </p>
           <p
